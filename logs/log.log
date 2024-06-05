@@ -89,3 +89,10 @@
 2024-06-05 17:10:38,379 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
 2024-06-05 17:10:38,380 - data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
 2024-06-05 17:10:46,726 - data_generation - INFO - Chat completion successfull.
+2024-06-05 17:40:58,466 - scripts.data_generation - ERROR - Error reading the file: expected str, bytes or os.PathLike object, not UploadedFile
+2024-06-05 17:44:12,335 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-05 17:44:12,335 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-05 17:44:12,335 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-05 17:44:15,716 - scripts.data_generation - INFO - Chat completion successfull.
+2024-06-05 17:44:15,716 - scripts.data_generation - INFO - Chat completion successfull.
+2024-06-05 17:44:15,716 - scripts.data_generation - INFO - Chat completion successfull.
