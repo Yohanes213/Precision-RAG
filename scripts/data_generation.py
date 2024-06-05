@@ -2,6 +2,9 @@ import os
 import json
 from langchain_openai import ChatOpenAI
 import logging
+from dotenv import load_dotenv
+from pathlib import Path
+from PyPDF2 import PdfReader
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -14,8 +17,10 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
 
+env_path = Path('.env')
+load_dotenv(env_path)
 
-openai_api_key = 'sk-proj-mzvpwbndtOtK0W1r6dElT3BlbkFJC2iTbBxJrYPBUhhImOvo'#os.getenv('OPENAI_API_KEY')
+openai_api_key = os.getenv('OPENAI_API_KEY')
 
 client = ChatOpenAI(
     openai_api_key = openai_api_key,
@@ -24,7 +29,6 @@ client = ChatOpenAI(
 
 
 def get_completion(
-                   # model,
                     messages, 
                     max_tokens=500, 
                     temperature=0, 
@@ -37,7 +41,6 @@ def get_completion(
     try:
     
         params = {
-            #'model': model,
             'messages': messages,
             'max_tokens': max_tokens,
             'temperature': temperature,
@@ -62,15 +65,26 @@ def file_reader(path):
 
     try:
         filename = os.path.join(path)
-        with open(filename, 'r') as f:
-            system_messages = f.read()
-
-        logger.info('File reading successful for {filename}')
-
-        return system_messages
+        if filename.endswith('.txt'):
+            with open(filename, 'r') as f:
+                content = f.read()
+            logger.info(f'File reading successful for {filename}')
+        elif filename.endswith('.pdf'):
+            content = ""
+            with open(filename, 'rb') as f:
+                reader = PdfReader(f)
+                for page in reader.pages:
+                    content += page.extract_text()
+            logger.info(f'PDF reading successful for {filename}')
+        else:
+            raise ValueError('Unsupported file format')
+        
+        return content
 
     except Exception as e:
         logger.error(f"Error reading the file: {e}")
+        raise
+
 
 
 
