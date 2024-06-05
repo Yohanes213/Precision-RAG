@@ -34,9 +34,10 @@ def get_completion(
                     temperature=0, 
                     stop=None,
                     seed=123,
-                    tools=None,
+                    #tools=None,
                     logprobs=None,
-                    top_logprobs=None):
+                    top_logprobs=None,
+                    n=None):
     
     try:
     
@@ -50,8 +51,9 @@ def get_completion(
             'top_logprobs': top_logprobs
         }
 
-        if tools:
-            params['tools'] = tools
+        if n:
+            params['n'] = n
+
         completion = client(**params) 
 
         logger.info(f"Chat completion successfull.")
