@@ -1,19 +1,7 @@
-from data_generation import file_reader, get_completion
+from scripts.data_generation import file_reader, get_completion
 import json
-from langchain.schema import(
-    SystemMessage,
-    HumanMessage,
-    AIMessage
-)
-
-
-def _convert_message_to_dict(message):
-  if isinstance(message, str):
-    return {"content": message}  # Handle strings directly
-  else:
-    return {"content": message.content}  # Use content attribute for objects
-
-
+from langchain.schema import HumanMessage
+  
 
 
 def generate_test_data(prompt, context, num_test_output):
