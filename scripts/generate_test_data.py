@@ -32,7 +32,7 @@ def generate_test_data(prompt, context, num_test_output):
 
 
 def main(num_test_output):
-    context_message = file_reader("prompts/context.txt")
+    context_message = file_reader("prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf")
     prompt_message = file_reader("prompts/data-generation-prompt.txt")
 
     context = str(context_message)
