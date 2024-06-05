@@ -1,0 +1,81 @@
+2024-06-05 15:31:42,488 - data_generation - ERROR - Error reading the file: [Errno 2] No such file or directory: 'prompts/content.txt'
+2024-06-05 15:31:42,500 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:32:37,932 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:32:37,933 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:34:16,895 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:34:16,896 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:34:17,229 - data_generation - ERROR - Error in chat completion: 'dict' object has no attribute 'content'
+2024-06-05 15:36:48,034 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:36:48,035 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:36:48,366 - data_generation - ERROR - Error in chat completion: 'dict' object has no attribute 'content'
+2024-06-05 15:38:51,810 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:38:51,811 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:38:51,812 - data_generation - ERROR - Error in chat completion: invoke() missing 1 required positional argument: 'input'
+2024-06-05 15:43:39,114 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:43:39,114 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:43:39,114 - data_generation - ERROR - Error in chat completion: 'ChatOpenAI' object has no attribute 'chat'
+2024-06-05 15:45:05,802 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:45:05,802 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:45:05,803 - data_generation - ERROR - Error in chat completion: 'ChatOpenAI' object has no attribute 'completions'
+2024-06-05 15:54:49,142 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:54:49,143 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:54:49,143 - data_generation - ERROR - Error in chat completion: 'ChatOpenAI' object has no attribute 'completions'
+2024-06-05 15:54:54,334 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:54:54,334 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:54:54,334 - data_generation - ERROR - Error in chat completion: invoke() missing 1 required positional argument: 'input'
+2024-06-05 15:55:08,889 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:55:08,890 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:55:09,235 - data_generation - ERROR - Error in chat completion: 'dict' object has no attribute 'content'
+2024-06-05 15:57:47,201 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:57:47,201 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 15:57:47,544 - data_generation - ERROR - Error in chat completion: 'dict' object has no attribute 'content'
+2024-06-05 16:01:25,279 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:01:25,280 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:01:39,471 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:01:39,472 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:01:51,036 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:01:51,036 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:03:53,758 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:03:53,759 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:03:55,139 - data_generation - ERROR - Error in chat completion: Error code: 404 - {'error': {'message': 'The model `davinci` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2024-06-05 16:04:34,572 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:04:34,572 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:04:38,976 - data_generation - ERROR - Error in chat completion: 'list' object has no attribute 'context'
+2024-06-05 16:12:03,751 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:12:03,752 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:12:19,388 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:12:19,388 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:12:24,259 - data_generation - ERROR - Error in chat completion: 'list' object has no attribute 'context'
+2024-06-05 16:14:29,748 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:14:29,748 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:14:35,897 - data_generation - ERROR - Error in chat completion: 'list' object has no attribute 'context'
+2024-06-05 16:15:15,329 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:15:15,329 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:15:20,015 - data_generation - INFO - Chat completion successfull.
+2024-06-05 16:16:08,564 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:16:08,564 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:16:13,988 - data_generation - INFO - Chat completion successfull.
+2024-06-05 16:17:01,134 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:17:01,134 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:17:05,315 - data_generation - INFO - Chat completion successfull.
+2024-06-05 16:18:34,783 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:18:34,784 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:18:43,312 - data_generation - INFO - Chat completion successfull.
+2024-06-05 16:19:12,384 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:19:12,384 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:19:14,632 - data_generation - INFO - Chat completion successfull.
+2024-06-05 16:20:58,301 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:20:58,301 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:21:00,815 - data_generation - INFO - Chat completion successfull.
+2024-06-05 16:21:30,197 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:21:30,197 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:21:32,467 - data_generation - INFO - Chat completion successfull.
+2024-06-05 16:22:13,722 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:22:13,723 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:22:16,145 - data_generation - INFO - Chat completion successfull.
+2024-06-05 16:22:47,927 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:22:47,927 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:22:50,248 - data_generation - INFO - Chat completion successfull.
+2024-06-05 16:23:06,451 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:23:06,451 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:23:10,765 - data_generation - INFO - Chat completion successfull.
