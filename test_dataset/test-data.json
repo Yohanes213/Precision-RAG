@@ -1,22 +1,6 @@
 [
     {
-        "user": "What is the primary goal of PromptlyTech's solutions?",
-        "assistant": "To improve user engagement and satisfaction by providing accurate, contextually relevant responses from LLMs."
-    },
-    {
-        "user": "What are the key services offered by PromptlyTech?",
-        "assistant": "Automatic Prompt Generation, Automatic Evaluation Data Generation, and Prompt Testing and Ranking."
-    },
-    {
-        "user": "What is the significance of prompt engineering in the context of Language Models?",
-        "assistant": "Prompt engineering is crucial for guiding LLMs to produce desired outcomes by designing effective queries or statements."
-    },
-    {
-        "user": "What are the main learning outcomes of the Automatic Prompt Engineering challenge?",
-        "assistant": "Skills development in prompt engineering proficiency, critical analysis, technical aptitude with LLMs, problem-solving, creativity, and data interpretation."
-    },
-    {
-        "user": "What are the primary methods used for prompt testing and ranking in the Automatic Prompt Engineering challenge?",
-        "assistant": "Monte Carlo Matchmaking and ELO Rating System are the primary methods used for prompt testing and ranking."
+        "user": "What is the primary goal of PromptlyTech's Prompt Testing and Ranking Service?",
+        "assistant": "PromptlyTech's service evaluates and ranks different prompts based on effectiveness, helping users to get the desired outcome from LLM."
     }
 ]
