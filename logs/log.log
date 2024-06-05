@@ -79,3 +79,13 @@
 2024-06-05 16:23:06,451 - data_generation - INFO - File reading successful for {filename}
 2024-06-05 16:23:06,451 - data_generation - INFO - File reading successful for {filename}
 2024-06-05 16:23:10,765 - data_generation - INFO - Chat completion successfull.
+2024-06-05 16:39:50,041 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:39:50,042 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:39:56,660 - data_generation - INFO - Chat completion successfull.
+2024-06-05 16:40:10,419 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:40:10,420 - data_generation - INFO - File reading successful for {filename}
+2024-06-05 16:40:16,716 - data_generation - INFO - Chat completion successfull.
+2024-06-05 17:08:57,732 - data_generation - ERROR - Error reading the file: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+2024-06-05 17:10:38,379 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-05 17:10:38,380 - data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-05 17:10:46,726 - data_generation - INFO - Chat completion successfull.
