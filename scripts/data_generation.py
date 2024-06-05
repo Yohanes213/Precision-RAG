@@ -20,13 +20,11 @@ logger.addHandler(file_handler)
 env_path = Path('.env')
 load_dotenv(env_path)
 
-openai_api_key = os.getenv('OPENAI_API_KEY')
 
 client = ChatOpenAI(
-    openai_api_key = openai_api_key,
+    
     model = 'gpt-3.5-turbo'
 )
-
 
 def get_completion(
                     messages, 
