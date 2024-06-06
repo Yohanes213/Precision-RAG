@@ -130,3 +130,1066 @@
  'namespaces': {'': {'vector_count': 21}},
  'total_vector_count': 21}
 2024-06-06 15:11:52,704 - data_generation - INFO - Chat completion successfull.
+2024-06-06 16:05:20,611 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 16:05:20,625 - data_generation - INFO - Successfully chunked 21
+2024-06-06 16:06:27,515 - vectorize - INFO - Sucessfully vectorizing the data: {'dimension': 1536,
+ 'index_fullness': 0.0,
+ 'namespaces': {'': {'vector_count': 21}},
+ 'total_vector_count': 21}
+2024-06-06 16:06:36,319 - data_generation - INFO - Chat completion successfull.
+2024-06-06 16:19:35,660 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 16:19:35,690 - data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:20:02,649 - vectorize - INFO - Successfully vectorized the data: {'dimension': 1536,
+ 'index_fullness': 0.0,
+ 'namespaces': {},
+ 'total_vector_count': 0}
+2024-06-06 16:20:08,802 - data_generation - INFO - Chat completion successful.
+2024-06-06 16:37:35,272 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:37:35,272 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:37:35,272 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:37:41,263 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:37:41,263 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:37:41,263 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:38:05,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:38:05,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:38:05,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:40:11,766 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:40:11,766 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:40:11,766 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:40:11,766 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:40:14,313 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:40:14,313 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:40:14,313 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:40:14,313 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:40:20,594 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:40:20,594 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:40:20,594 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:40:20,594 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:40:40,339 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:40:40,339 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:40:40,339 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:40:40,339 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:40:44,944 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:40:44,944 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:40:44,944 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:40:44,944 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:47:21,686 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:47:21,686 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:47:21,686 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:47:21,686 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:47:21,686 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:47:24,747 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:47:24,747 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:47:24,747 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:47:24,747 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:47:24,747 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:47:43,629 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:47:43,629 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:47:43,629 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:47:43,629 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:47:43,629 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:47:45,696 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:47:45,696 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:47:45,696 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:47:45,696 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:47:45,696 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:47:52,142 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:47:52,142 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:47:52,142 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:47:52,142 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:47:52,142 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:52:54,596 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:52:54,596 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:52:54,596 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:52:54,596 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:52:54,596 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:52:54,596 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:52:59,205 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:52:59,205 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:52:59,205 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:52:59,205 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:52:59,205 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:52:59,205 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:52:59,211 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:52:59,211 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:52:59,211 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:52:59,211 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:52:59,211 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:52:59,211 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:53:01,257 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:53:01,257 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:53:01,257 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:53:01,257 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:53:01,257 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:53:01,257 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:53:08,406 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:53:08,406 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:53:08,406 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:53:08,406 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:53:08,406 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:53:08,406 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:25,750 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:56:25,750 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:56:25,750 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:56:25,750 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:56:25,750 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:56:25,750 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:56:25,750 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:56:29,198 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:29,198 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:29,198 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:29,198 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:29,198 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:29,198 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:29,198 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:29,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:56:29,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:56:29,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:56:29,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:56:29,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:56:29,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:56:29,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:56:47,021 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:56:47,021 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:56:47,021 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:56:47,021 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:56:47,021 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:56:47,021 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:56:47,021 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:56:51,856 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:51,856 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:51,856 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:51,856 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:51,856 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:51,856 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:56:51,856 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:30,913 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:58:30,913 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:58:30,913 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:58:30,913 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:58:30,913 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:58:30,913 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:58:30,913 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:58:30,913 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:58:33,197 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:33,197 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:33,197 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:33,197 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:33,197 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:33,197 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:33,197 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:33,197 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:33,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:58:33,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:58:33,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:58:33,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:58:33,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:58:33,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:58:33,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:58:33,205 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:58:35,649 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:58:35,649 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:58:35,649 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:58:35,649 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:58:35,649 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:58:35,649 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:58:35,649 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:58:35,649 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:58:40,039 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:40,039 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:40,039 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:40,039 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:40,039 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:40,039 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:40,039 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:58:40,039 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:15,561 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:59:15,561 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:59:15,561 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:59:15,561 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:59:15,561 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:59:15,561 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:59:15,561 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:59:15,561 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:59:15,561 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 16:59:18,099 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:18,099 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:18,099 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:18,099 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:18,099 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:18,099 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:18,099 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:18,099 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:18,099 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:18,111 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:59:18,111 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:59:18,111 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:59:18,111 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:59:18,111 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:59:18,111 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:59:18,111 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:59:18,111 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:59:18,111 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 16:59:20,096 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:59:20,096 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:59:20,096 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:59:20,096 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:59:20,096 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:59:20,096 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:59:20,096 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:59:20,096 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:59:20,096 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 16:59:24,534 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:24,534 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:24,534 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:24,534 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:24,534 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:24,534 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:24,534 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:24,534 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 16:59:24,534 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:21,646 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:00:21,646 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:00:21,646 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:00:21,646 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:00:21,646 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:00:21,646 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:00:21,646 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:00:21,646 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:00:21,646 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:00:25,968 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:25,968 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:25,968 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:25,968 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:25,968 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:25,968 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:25,968 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:25,968 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:25,968 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:25,985 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:00:25,985 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:00:25,985 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:00:25,985 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:00:25,985 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:00:25,985 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:00:25,985 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:00:25,985 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:00:25,985 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:00:29,777 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:00:29,777 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:00:29,777 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:00:29,777 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:00:29,777 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:00:29,777 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:00:29,777 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:00:29,777 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:00:29,777 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:00:38,470 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:38,470 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:38,470 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:38,470 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:38,470 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:38,470 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:38,470 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:38,470 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:00:38,470 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:06:55,188 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:06:55,188 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:06:55,188 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:06:55,188 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:06:55,188 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:06:55,188 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:06:55,188 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:06:55,188 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:06:55,188 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:06:55,188 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:06:55,188 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:07:01,031 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:01,031 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:01,031 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:01,031 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:01,031 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:01,031 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:01,031 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:01,031 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:01,031 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:01,031 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:01,031 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:01,039 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:07:01,039 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:07:01,039 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:07:01,039 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:07:01,039 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:07:01,039 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:07:01,039 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:07:01,039 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:07:01,039 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:07:01,039 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:07:01,039 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:07:04,305 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:07:04,305 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:07:04,305 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:07:04,305 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:07:04,305 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:07:04,305 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:07:04,305 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:07:04,305 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:07:04,305 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:07:04,305 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:07:04,305 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:07:12,913 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:12,913 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:12,913 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:12,913 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:12,913 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:12,913 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:12,913 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:12,913 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:12,913 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:12,913 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:07:12,913 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:28,186 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,500 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:30,507 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:33,066 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:08:37,513 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:31,022 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,459 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:33,471 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:35,828 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:09:40,963 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:57,303 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,845 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:11:59,860 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:03,245 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:12:10,921 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:22,609 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,865 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:26,879 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:28,863 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:17:31,616 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:20:10,724 - data_generation - INFO - Successfully chunked text into 1 chunks.
+2024-06-06 17:20:29,770 - vectorize - INFO - Successfully vectorized the data: {'dimension': 1536,
+ 'index_fullness': 0.0,
+ 'namespaces': {'': {'vector_count': 21}},
+ 'total_vector_count': 21}
+2024-06-06 17:20:34,367 - data_generation - INFO - Chat completion successful.
+2024-06-06 17:21:39,311 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 17:21:40,404 - data_generation - INFO - Successfully chunked text into 1 chunks.
+2024-06-06 17:22:02,351 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 17:22:03,513 - data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:22:08,486 - vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:22:17,526 - data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:28,866 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,400 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:24:31,412 - scripts.data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:02,656 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,403 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:05,419 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:07,639 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:28:10,439 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:02,702 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,209 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:07,218 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:25,505 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:30:28,600 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:09,731 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,806 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:13,822 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:15,930 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:19,711 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:41,645 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,134 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:44,154 - scripts.data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:46,188 - scripts.vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:31:50,499 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-06 17:34:31,381 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 17:34:33,237 - data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 17:34:37,856 - vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 17:34:41,537 - data_generation - INFO - Chat completion successful.
+2024-06-06 18:00:50,164 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 18:00:51,513 - data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 18:00:54,567 - vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 18:00:56,647 - data_generation - ERROR - Error reading the file: [Errno 2] No such file or directory: 'prompt/prompt-generation.txt'
+2024-06-06 18:01:38,495 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 18:01:39,830 - data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 18:01:44,841 - vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 18:01:46,617 - data_generation - INFO - File reading successful for prompts/prompt-generation.txt
+2024-06-06 18:03:12,904 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 18:03:13,866 - data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-06 18:03:16,804 - vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-06 18:03:18,658 - data_generation - INFO - File reading successful for prompts/prompt-generation.txt
+2024-06-06 18:03:20,168 - data_generation - INFO - Chat completion successful.
