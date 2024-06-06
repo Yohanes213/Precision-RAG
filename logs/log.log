@@ -98,3 +98,35 @@
 2024-06-05 17:44:15,716 - scripts.data_generation - INFO - Chat completion successfull.
 2024-06-05 21:08:30,956 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
 2024-06-05 21:08:35,898 - scripts.data_generation - INFO - Chat completion successfull.
+2024-06-06 11:02:46,073 - scripts.data_generation - ERROR - Error reading the file: [Errno 2] No such file or directory: 'prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf'
+2024-06-06 11:02:58,822 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:07:19,871 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:07:36,278 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:15:33,781 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:16:11,302 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:16:47,814 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:17:05,359 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:18:07,728 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:18:52,838 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:19:04,443 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:23:56,295 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:23:56,309 - data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 11:23:57,763 - data_generation - ERROR - Error in chat completion: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************6WCu. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-06-06 11:31:14,563 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:31:14,575 - data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-06 11:31:24,689 - data_generation - INFO - Chat completion successfull.
+2024-06-06 11:33:24,611 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:34:50,218 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:38:16,597 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:41:00,740 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 11:48:04,226 - scripts.data_generation - INFO - PDF reading successful for ../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 15:09:37,902 - data_generation - ERROR - Error reading the file: [Errno 2] No such file or directory: '../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf'
+2024-06-06 15:09:37,902 - vectorize - ERROR - Error vectorizing the data [Errno 2] No such file or directory: '../prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf'
+2024-06-06 15:09:48,346 - data_generation - INFO - Chat completion successfull.
+2024-06-06 15:11:40,063 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-06 15:11:40,064 - data_generation - INFO - Successfully chunked 21
+2024-06-06 15:11:48,789 - vectorize - INFO - Sucessfully vectorizing the data: {'dimension': 1536,
+ 'index_fullness': 0.0,
+ 'namespaces': {'': {'vector_count': 21}},
+ 'total_vector_count': 21}
+2024-06-06 15:11:52,704 - data_generation - INFO - Chat completion successfull.
