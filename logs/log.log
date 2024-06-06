@@ -96,3 +96,5 @@
 2024-06-05 17:44:15,716 - scripts.data_generation - INFO - Chat completion successfull.
 2024-06-05 17:44:15,716 - scripts.data_generation - INFO - Chat completion successfull.
 2024-06-05 17:44:15,716 - scripts.data_generation - INFO - Chat completion successfull.
+2024-06-05 21:08:30,956 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-05 21:08:35,898 - scripts.data_generation - INFO - Chat completion successfull.
