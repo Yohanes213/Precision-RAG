@@ -1,4 +1,4 @@
-from scripts.data_generation import file_reader, get_completion
+from data_generation import file_reader, get_completion
 import json
 from langchain.schema import HumanMessage
   
