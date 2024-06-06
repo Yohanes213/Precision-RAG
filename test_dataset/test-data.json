@@ -1,22 +1,6 @@
 [
     {
-        "user": "What is the primary goal of PromptlyTech's solutions?",
-        "assistant": "The company aims to revolutionize how businesses interact with LLMs."
-    },
-    {
         "user": "What are the key services offered by PromptlyTech?",
         "assistant": "Automatic Prompt Generation, Automatic Evaluation Data Generation, and Prompt Testing and Ranking."
-    },
-    {
-        "user": "What is the significance of prompt engineering in the context of Language Models?",
-        "assistant": "Prompt engineering is crucial for guiding LLMs to produce desired outcomes."
-    },
-    {
-        "user": "What are the main methods used for prompt evaluation in the system?",
-        "assistant": "Monte Carlo Matchmaking and ELO Rating System are the primary methods used."
-    },
-    {
-        "user": "How does PromptlyTech streamline the process of creating effective prompts?",
-        "assistant": "By offering the Automatic Prompt Generation Service, reducing time and expertise required."
     }
 ]
