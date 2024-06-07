@@ -1193,3 +1193,31 @@
 2024-06-06 18:03:16,804 - vectorize - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
 2024-06-06 18:03:18,658 - data_generation - INFO - File reading successful for prompts/prompt-generation.txt
 2024-06-06 18:03:20,168 - data_generation - INFO - Chat completion successful.
+2024-06-07 11:48:36,749 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 11:48:36,755 - data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-07 11:48:42,386 - data_generation - INFO - Chat completion successful.
+2024-06-07 15:15:28,429 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 15:15:28,498 - data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-07 15:18:31,364 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 15:18:31,365 - data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-07 15:18:39,746 - data_generation - INFO - Chat completion successful.
+2024-06-07 15:18:55,535 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 15:18:55,535 - data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-07 15:19:03,915 - data_generation - INFO - Chat completion successful.
+2024-06-07 15:39:19,435 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 15:39:22,657 - data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-07 15:39:33,507 - rag - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-07 15:39:35,060 - data_generation - INFO - File reading successful for prompts/prompt-generation.txt
+2024-06-07 15:40:39,310 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 15:40:40,313 - data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-07 15:40:45,054 - rag - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-07 15:40:50,516 - data_generation - INFO - File reading successful for prompts/prompt-generation.txt
+2024-06-07 15:40:53,665 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:10:58,804 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:10:58,882 - data_generation - ERROR - Error in chat completion: 'str' object has no attribute 'content'
+2024-06-07 16:14:54,981 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:14:55,015 - data_generation - ERROR - Error in chat completion: invoke() missing 1 required positional argument: 'input'
+2024-06-07 16:16:09,507 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:16:09,517 - data_generation - ERROR - Error in chat completion: invoke() missing 1 required positional argument: 'input'
+2024-06-07 16:18:36,531 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:18:37,358 - data_generation - INFO - Chat completion successful.
