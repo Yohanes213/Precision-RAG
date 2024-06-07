@@ -1221,3 +1221,103 @@
 2024-06-07 16:16:09,517 - data_generation - ERROR - Error in chat completion: invoke() missing 1 required positional argument: 'input'
 2024-06-07 16:18:36,531 - data_generation - INFO - File reading successful for prompts/validation.txt
 2024-06-07 16:18:37,358 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:38:30,034 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:38:30,937 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:38:31,724 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:38:32,335 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:38:33,119 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:38:33,617 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:38:34,375 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:38:34,910 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:38:36,589 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:38:37,015 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:38:37,837 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:38:38,391 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:38:39,169 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:38:39,796 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:38:40,624 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:38:41,185 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:38:41,976 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:38:42,521 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:38:43,286 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:38:43,975 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:38:44,841 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:38:45,353 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:40:21,090 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 16:40:21,104 - data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-07 16:40:29,714 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:42:07,285 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:42:08,151 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:42:08,963 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:42:09,520 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:42:10,332 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:42:10,866 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:42:11,706 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:42:12,302 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:42:13,261 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:42:14,171 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:44:02,056 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:44:03,250 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:44:04,137 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:44:04,781 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:44:05,601 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:44:06,219 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:44:07,104 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:44:07,823 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:53:44,559 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:53:45,818 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:53:46,789 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:53:47,497 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:53:48,388 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:53:49,333 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:53:50,182 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:53:50,665 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:53:51,406 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:53:52,300 - data_generation - INFO - Chat completion successful.
+2024-06-07 16:53:53,180 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 16:53:53,665 - data_generation - INFO - Chat completion successful.
+2024-06-07 20:40:15,431 - data_generation - INFO - Successfully chunked text into 1 chunks.
+2024-06-07 20:40:49,201 - __main__ - INFO - Successfully vectorized the data: {'dimension': 1536,
+ 'index_fullness': 0.0,
+ 'namespaces': {'': {'vector_count': 21}},
+ 'total_vector_count': 21}
+2024-06-07 20:55:44,448 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 20:56:58,725 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 20:56:58,728 - data_generation - INFO - Successfully chunked text into 21 chunks.
+2024-06-07 20:57:03,616 - rag - ERROR - Error vectorizing the data: Invalid value for `id`, length must be less than or equal to `512`
+2024-06-07 20:57:08,412 - data_generation - ERROR - Error reading the file: 'int' object has no attribute 'endswith'
+2024-06-07 21:04:47,141 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 21:04:56,189 - data_generation - INFO - File reading successful for prompts/prompt-generation.txt
+2024-06-07 21:04:59,572 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:18:10,656 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 21:18:10,673 - data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-07 21:18:17,211 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:19:41,810 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 21:19:41,810 - data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-07 21:19:51,153 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:20:10,688 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 21:20:22,373 - data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-07 21:23:09,184 - data_generation - INFO - PDF reading successful for prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf
+2024-06-07 21:23:16,561 - data_generation - INFO - File reading successful for prompts/prompt-generation.txt
+2024-06-07 21:23:19,978 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:23:40,258 - data_generation - ERROR - Error reading the file: Unsupported file format
+2024-06-07 21:24:11,847 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 21:24:13,338 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:24:14,137 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 21:24:14,679 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:24:15,601 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 21:24:16,306 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:24:17,196 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 21:24:17,832 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:24:18,712 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 21:24:19,439 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:24:20,326 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 21:24:20,886 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:24:21,756 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 21:24:22,310 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:24:23,184 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 21:24:23,920 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:24:25,075 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 21:24:25,683 - data_generation - INFO - Chat completion successful.
+2024-06-07 21:24:26,629 - data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-07 21:24:27,193 - data_generation - INFO - Chat completion successful.
