@@ -6,7 +6,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Pinecone
 from langchain.schema import HumanMessage
 from pinecone import Pinecone as PineconeClient, ServerlessSpec
-from rag import vectorize, retrieve
+from rag import vectorize, retrieve, insert_vector
 from data_generation import FileHandler, AIAssistant
 
 
@@ -23,6 +23,7 @@ logger.addHandler(file_handler)
 # Load environment variables
 load_dotenv()
 pinecone_api_key = os.getenv('PINECONE_API_KEY')
+
 openapi_key = os.getenv('OPENAI_API_KEY')
 
 # Initialize AIAssistant
@@ -33,6 +34,7 @@ embed_model = OpenAIEmbeddings(model='text-embedding-ada-002', openai_api_key=op
 pc = PineconeClient(pinecone_api_key)
 
 index_name = 'prompt-engineering'
+index = pc.Index(index_name)
 
 def create_pinecone_index(pc, index_name):
     """
@@ -55,17 +57,9 @@ def create_pinecone_index(pc, index_name):
         while not pc.describe_index(index_name).status['ready']:
             time.sleep(1)
 
-def generation_prompt(file_path, query, n=5):
-    # File path to the document
-    #file_path = 'prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf'
-    batch_size = 64
+def generation_prompt(text, query, prompt_path, n=5):
 
-    # Create Pinecone index
-    #create_pinecone_index(pc, index_name)
-    index = pc.Index(index_name)
-
-    # Vectorize the document
-    vectorize(index, file_path, embed_model, batch_size)
+    insert_vector(text)
 
     # Initialize the vector store
     text_field = 'text'
@@ -78,7 +72,7 @@ def generation_prompt(file_path, query, n=5):
     results = vectorstore.similarity_search(query, k=2)
 
     # Retrieve the prompt
-    prompt = retrieve(results, query, n)
+    prompt = retrieve(results, query, prompt_path, n)
 
     # Get completion from OpenAI
     response = assistant.get_chat_completion(messages=[HumanMessage(content=prompt)], logprobs=True, top_logprobs=1)
@@ -87,7 +81,9 @@ def generation_prompt(file_path, query, n=5):
 
 if __name__ == "__main__":
     file_path = 'prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf'
+    prompt_path = 'prompts/prompt-generation.txt'
     text = FileHandler.read_file(file_path)
     query = 'Who are the tutors?'
-    response = generation_prompt(text, query, 1)
+
+    response = generation_prompt(text, prompt_path, query, 1)
     print(response.content)
