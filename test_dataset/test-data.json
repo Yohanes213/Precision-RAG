@@ -12,35 +12,23 @@
         "assistant": "It guides LLMs to produce desired outcomes by designing effective queries or statements."
     },
     {
-        "user": "How does Automatic Prompt Generation Service benefit businesses?",
-        "assistant": "It streamlines the process of creating effective prompts, saving time and expertise."
+        "user": "What are the learning outcomes related to prompt engineering?",
+        "assistant": "Skills development in prompt engineering proficiency, critical analysis, technical aptitude with LLMs, problem-solving, and data interpretation."
     },
     {
-        "user": "What is the purpose of Automatic Evaluation Data Generation Service?",
-        "assistant": "To automate the generation of diverse test cases for comprehensive coverage and identifying potential issues."
+        "user": "What are the primary methods used for prompt testing and ranking?",
+        "assistant": "Monte Carlo Matchmaking and ELO Rating System."
     },
     {
-        "user": "How does Prompt Testing and Ranking Service help users?",
-        "assistant": "It evaluates and ranks prompts based on effectiveness to ensure accurate and relevant responses from LLMs."
+        "user": "What is the purpose of the ELO Rating System in prompt evaluation?",
+        "assistant": "To rate prompts based on their performance in battles and opponents defeated."
     },
     {
-        "user": "What is the challenge in prompt engineering due to prompt nuances?",
-        "assistant": "Slight variations in prompts can lead to vastly different results, posing a significant hurdle for users."
+        "user": "What is the goal of the Adaptive Ranking Algorithms in prompt evaluation?",
+        "assistant": "To adjust over time based on historical performance data and evolving user preferences."
     },
     {
-        "user": "What are the learning outcomes related to prompt engineering proficiency?",
-        "assistant": "Developing expertise in crafting effective prompts and understanding language nuances."
-    },
-    {
-        "user": "What are the key components of an enterprise-grade RAG system?",
-        "assistant": "Retrieval-augmented generation (RAG), Langchain Retrievers, and advanced RAG for LLMs/SLMs."
-    },
-    {
-        "user": "How does the ELO rating system work in prompt evaluation?",
-        "assistant": "It rates prompts based on their performance in battles, considering wins and strength of opponents."
-    },
-    {
-        "user": "Who is the doctor",
-        "assistant": "Yabebal"
+        "user": "What is the deliverable for the Final Submission on Saturday?",
+        "assistant": "Link to code in GitHub for completed tasks, along with a blog post entry or a PDF report."
     }
 ]
