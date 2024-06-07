@@ -5,7 +5,6 @@ import os
 from dotenv import load_dotenv
 from pathlib import Path
 
-  
 
 # Load environment variables
 env_path = Path('.env')
@@ -17,6 +16,7 @@ assistant = AIAssistant(openai_api_key=openai_api_key)
 
 
 def generate_test_data(prompt, context, num_test_output):
+    
     response = assistant.get_chat_completion(
         #model='davinci',
 
@@ -34,6 +34,8 @@ def generate_test_data(prompt, context, num_test_output):
 def main(num_test_output):
     context_message = FileHandler.read_file("prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf")
     prompt_message = FileHandler.read_file("prompts/data-generation-prompt.txt")
+
+
 
     context = str(context_message)
     prompt = str(prompt_message)
@@ -53,6 +55,6 @@ def main(num_test_output):
 
 
 if __name__ == "__main__":
-    main(5)
+    main(10)
 
  
