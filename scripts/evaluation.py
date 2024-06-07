@@ -7,6 +7,7 @@ from langchain.vectorstores import Pinecone
 from langchain.embeddings.openai import OpenAIEmbeddings
 from pinecone import Pinecone as PineconeClient
 from rag import retrieve
+import json
 
 load_dotenv()
 pinecone_api_key = os.getenv('PINECONE_API_KEY')
@@ -41,19 +42,33 @@ def get_model_confidence(message):
             classification = 'false'
     return classification
 
-
-if __name__ == "__main__":
+def evaluation():
     prompt_path = 'prompts/validation.txt'
-    query ="Who is the doctor?"
-    n = 5
-    text_field = 'text'
-    vectorstore = Pinecone(index, embed_model.embed_query, text_field)
-    results = vectorstore.similarity_search(query, k=2)
-#results, query, prompt_path, num_prompts=None)
-    prompt = retrieve(results, query, prompt_path)
 
-    classficaion = get_model_confidence(prompt)
+    with open('test_dataset/test-data.json', 'r') as f:
+        data = json.load(f)
 
-    print(classficaion)
+    filtered_data = []
+    for item in data:
+        query = item['user']
+
+
+        text_field = 'text'
+        vectorstore = Pinecone(index, embed_model.embed_query, text_field)
+        results = vectorstore.similarity_search(query, k=2)
+
+        prompt = retrieve(results, prompt_path, query)
+
+        classification = get_model_confidence(prompt)
+        
+        if classification == 'true':
+            filtered_data.append(item)
+    
+    with open('test_dataset/test-data.json', 'w') as file:
+        json.dump(filtered_data, file, indent=4)
+
+    
+if __name__ == "__main__":
+    evaluation()
 
 
