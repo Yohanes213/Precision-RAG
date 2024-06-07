@@ -1,11 +1,23 @@
-from scripts.data_generation import file_reader, get_completion
+from data_generation import FileHandler, AIAssistant
 import json
 from langchain.schema import HumanMessage
+import os
+from dotenv import load_dotenv
+from pathlib import Path
+
   
+
+# Load environment variables
+env_path = Path('.env')
+load_dotenv(env_path)
+openai_api_key = os.getenv('OPENAI_API_KEY')
+
+# Initialize AIAssistant
+assistant = AIAssistant(openai_api_key=openai_api_key)
 
 
 def generate_test_data(prompt, context, num_test_output):
-    response = get_completion(
+    response = assistant.get_chat_completion(
         #model='davinci',
 
         messages=[
@@ -20,8 +32,8 @@ def generate_test_data(prompt, context, num_test_output):
 
 
 def main(num_test_output):
-    context_message = file_reader("prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf")
-    prompt_message = file_reader("prompts/data-generation-prompt.txt")
+    context_message = FileHandler.read_file("prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf")
+    prompt_message = FileHandler.read_file("prompts/data-generation-prompt.txt")
 
     context = str(context_message)
     prompt = str(prompt_message)
