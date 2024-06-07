@@ -11,7 +11,8 @@ The prompt must satisfy the rules given below:
 1.The prompt should make sense to humans even when read without the given context.
 2.The prompt should give a general context from the context.
 3.Do no use phrases like 'provided context',etc in the prompt
-8.Avoid framing prompt using word "and" that can be decomposed into more than one question.
-    
+4. Avoid framing prompt using word "and" that can be decomposed into more than one question.
+5. Don't mention the answers of the query in the prompts.
+
 context: {context}
 query : {query}
