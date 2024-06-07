@@ -18,8 +18,6 @@ assistant = AIAssistant(openai_api_key=openai_api_key)
 def generate_test_data(prompt, context, num_test_output):
     
     response = assistant.get_chat_completion(
-        #model='davinci',
-
         messages=[
             HumanMessage(content= prompt.replace("{context}", context).replace("{num_test_output}", str(num_test_output)))
             ],
@@ -34,8 +32,6 @@ def generate_test_data(prompt, context, num_test_output):
 def main(num_test_output):
     context_message = FileHandler.read_file("prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf")
     prompt_message = FileHandler.read_file("prompts/data-generation-prompt.txt")
-
-
 
     context = str(context_message)
     prompt = str(prompt_message)
