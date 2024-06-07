@@ -6,13 +6,9 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Pinecone
 from langchain.schema import HumanMessage
 from pinecone import Pinecone as PineconeClient, ServerlessSpec
-from vectorize import vectorize, retrieve
-from data_generation import get_completion, file_reader
+from rag import vectorize, retrieve
+from data_generation import FileHandler, AIAssistant
 
-# Load environment variables
-load_dotenv()
-pinecone_api_key = os.getenv('PINECONE_API_KEY')
-openapi_key = os.getenv('OPENAI_API_KEY')
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -22,6 +18,15 @@ file_handler.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
+
+
+# Load environment variables
+load_dotenv()
+pinecone_api_key = os.getenv('PINECONE_API_KEY')
+openapi_key = os.getenv('OPENAI_API_KEY')
+
+# Initialize AIAssistant
+assistant = AIAssistant(openai_api_key=openapi_key)
 
 # Initialize embedding model and Pinecone client
 embed_model = OpenAIEmbeddings(model='text-embedding-ada-002', openai_api_key=openapi_key)
@@ -76,13 +81,13 @@ def generation_prompt(file_path, query, n=5):
     prompt = retrieve(results, query, n)
 
     # Get completion from OpenAI
-    response = get_completion(messages=[HumanMessage(content=prompt)], logprobs=True, top_logprobs=1)
+    response = assistant.get_chat_completion(messages=[HumanMessage(content=prompt)], logprobs=True, top_logprobs=1)
 
     return response
 
 if __name__ == "__main__":
     file_path = 'prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf'
-    text = file_reader(file_path)
+    text = FileHandler.read_file(file_path)
     query = 'Who are the tutors?'
     response = generation_prompt(text, query, 1)
     print(response.content)
