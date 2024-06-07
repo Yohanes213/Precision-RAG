@@ -1,6 +1,46 @@
 [
     {
+        "user": "What is the primary goal of PromptlyTech?",
+        "assistant": "To revolutionize how businesses interact with LLMs."
+    },
+    {
         "user": "What are the key services offered by PromptlyTech?",
         "assistant": "Automatic Prompt Generation, Automatic Evaluation Data Generation, and Prompt Testing and Ranking."
+    },
+    {
+        "user": "What is the significance of prompt engineering in the context of LLMs?",
+        "assistant": "It guides LLMs to produce desired outcomes by designing effective queries or statements."
+    },
+    {
+        "user": "How does Automatic Prompt Generation Service benefit businesses?",
+        "assistant": "It streamlines the process of creating effective prompts, saving time and expertise."
+    },
+    {
+        "user": "What is the purpose of Automatic Evaluation Data Generation Service?",
+        "assistant": "To automate the generation of diverse test cases for comprehensive coverage and identifying potential issues."
+    },
+    {
+        "user": "How does Prompt Testing and Ranking Service help users?",
+        "assistant": "It evaluates and ranks prompts based on effectiveness to ensure accurate and relevant responses from LLMs."
+    },
+    {
+        "user": "What is the challenge in prompt engineering due to prompt nuances?",
+        "assistant": "Slight variations in prompts can lead to vastly different results, posing a significant hurdle for users."
+    },
+    {
+        "user": "What are the learning outcomes related to prompt engineering proficiency?",
+        "assistant": "Developing expertise in crafting effective prompts and understanding language nuances."
+    },
+    {
+        "user": "What are the key components of an enterprise-grade RAG system?",
+        "assistant": "Retrieval-augmented generation (RAG), Langchain Retrievers, and advanced RAG for LLMs/SLMs."
+    },
+    {
+        "user": "How does the ELO rating system work in prompt evaluation?",
+        "assistant": "It rates prompts based on their performance in battles, considering wins and strength of opponents."
+    },
+    {
+        "user": "Who is the doctor",
+        "assistant": "Yabebal"
     }
 ]
