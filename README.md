@@ -1,6 +1,35 @@
-# Test Data Generation App
+# Precision Rag
 
-This project is designed to generate test data using OpenAI's GPT-3.5-turbo model. It consists of Python scripts for data generation and a Streamlit web application for an easy-to-use interface.
+Precision RAG is a project focused on building enterprise-grade Retrieval-Augmented Generation (RAG) systems with a strong emphasis on prompt tuning. This repository provides tools and scripts to facilitate data generation, prompt tuning, evaluation, and deployment of RAG systems.
+
+## Project Structure
+
+.
+├── .github/
+│   └── workflows/
+│       └── precision.py
+├── logs/
+│   └── logs.log
+├── prompts/
+│   ├── context.txt
+│   ├── data-generation.txt
+│   ├── prompt-generation.txt
+│   ├── response.txt
+│   └── validation.txt
+├── scripts/
+│   ├── data_evaluation_pipeline.py
+│   ├── data_generation.py
+│   ├── generate_test_data.py
+│   ├── prompt_generation.py
+│   ├── prompt_ranking.py
+│   └── rag.py
+├── test_dataset/
+│   └── test_data.json
+├── .gitignore
+├── readme.md
+├── app.py
+├── file.json
+└── requirements.txt
 
 ## Project Structure
 
