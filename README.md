@@ -1,62 +1,52 @@
 # Precision Rag
 
+![Python 3.8+](https://img.shields.io/badge/Python-3.7+-blue.svg)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 Precision RAG is a project focused on building enterprise-grade Retrieval-Augmented Generation (RAG) systems with a strong emphasis on prompt tuning. This repository provides tools and scripts to facilitate data generation, prompt tuning, evaluation, and deployment of RAG systems.
 
+## Table of Contents
+['Project Structure'](#project-structure)
+['Setup Instruction'](#setup-instruction)
+['Running the Application'](#running-the-application)
+['Demo'](#demo)
+['Contributing'](#contributing)
+['License'](#license)
+
 ## Project Structure
-.
-├── .github/             # GitHub-related configurations
-│   └── workflows/       # GitHub Actions workflows
-│       └── precision.py
-├── logs/               # Log files
-│   └── logs.log
-├── prompts/           # Prompt files for different stages
-│   ├── context.txt
-│   ├── data-generation.txt
-│   ├── prompt-generation.txt
-│   ├── response.txt
-│   └── validation.txt
-├── scripts/           # Python scripts for various tasks
-│   ├── data_evaluation_pipeline.py
-│   ├── data_generation.py
-│   ├── generate_test_data.py
-│   ├── prompt_generation.py
-│   ├── prompt_ranking.py
-│   └── rag.py
-├── test_dataset/       # Test dataset
-│   └── test_data.json
-├── .gitignore         # Git ignore file
-├── README.md          # Project documentation
-├── app.py             # Streamlit app for UI
-├── file.json          # Configuration file
-└── requirements.txt   # Required Python packages
-## Project Structure
+- **.github/workflows:** Stores the workflow script (precision-rag-cl.yml) for automated CI builds using GitHub Actions.
+- **logs:** Contains a log file (logs.log) to track project execution.
+- **prompts:** Houses various prompt files used for different stages:
+  - **context.txt:** Defines prompts for providing context to the model.
+  - **data-generation.txt:** Stores prompts for data generation.
+  - **prompt-generation.txt:** Contains prompts used for generating prompts themselves (meta-prompting).
+  - **response.txt:** Defines prompts for response generation.
+  - **validation.txt:** Stores prompts for validation purposes.
+- **scripts:** Contains Python scripts for various functionalities:
+  - **data_evaluation_pipeline.py:** Script for evaluating generated data.
+  - **data_generation.py:** Script for generating training or testing data.
+  - **generate_test_data.py:** Script for generating specific test data (if needed).
+  - **prompt_generation.py:** Script for generating prompts based on meta-prompting techniques.
+  - **prompt_ranking.py:** Script for ranking retrieved passages or documents.
+  - **rag.py:** Core script implementing the RAG system with prompt tuning.
+- **test_dataset:** Contains a test data file (test_data.json) for evaluation purposes.
+- **.gitignore:** Specifies files and directories to be excluded from version control.
+- **readme.md:** The current file you're reading (project documentation).
+- **app.py:** Script for the Streamlit application providing a user interface (if applicable).
+- **file.json:** Additional configuration file (modify as needed).
+- **requirements.txt:** Lists the required Python libraries for running the project.
 
-### `scripts/`
-- `data_generation.py`: Contains functions to interact with OpenAI's API and read files.
-- `generate_test_data.py`: Utilizes the functions in `data_generation.py` to generate test data.
-
-### `app.py`
-- Streamlit application that provides a user-friendly interface for generating test data.
-
-### `prompts/`
-- `10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf`: PDF file used as context.
-- `data-generation-prompt.txt`: Text file containing the prompt for data generation.
-
-### `test_dataset/`
-- Directory where generated test data in JSON format will be saved.
-
-### `logs/`
-- Directory for log files.
 
 ## Setup Instructions
 
-### Prerequisites
+**Prerequisites**
 
-- Python 3.7 or higher
+- Python 3.8 or higher
 - OpenAI API key
-- Streamlit
+- Pinecone API key
+- Required libraries listed in `requirements.txt`
 
-### Installation
+**Installation**
 
 1. Clone the repository:
     ```sh
@@ -81,6 +71,10 @@ Precision RAG is a project focused on building enterprise-grade Retrieval-Augmen
         ```
         OPENAI_API_KEY=your_openai_api_key
         ```
+   - Add your Pinecone API key to the `.env` file:
+        ```
+        PINECONE_API_KEY=your_pinecone_api_key
+        ```
 
 ## Running the Application
 
@@ -91,15 +85,13 @@ Precision RAG is a project focused on building enterprise-grade Retrieval-Augmen
 
 2. Open your web browser and go to `http://localhost:8501`.
 
-3. Configure the settings in the sidebar and click "Generate Test Data".
+3. Configure the settings in the sidebar and click "Generate Prompt".
+   
+4. Click on 'View Prompts' to view the prompt Ranking.
 
-## Usage
+5. Click on `View the json file` to view and download the generated validation dataset.
 
-- **Context File Path**: Path to the context file (e.g., `prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf`).
-- **Prompt File Path**: Path to the prompt file (e.g., `prompts/data-generation-prompt.txt`).
-- **Number of Test Outputs**: Number of test outputs to generate.
 
-The generated test data will be displayed on the web interface and saved to `test_dataset/test-data.json`.
 
 ## Demo
 
