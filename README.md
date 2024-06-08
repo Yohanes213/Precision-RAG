@@ -101,7 +101,9 @@ Precision RAG is a project focused on building enterprise-grade Retrieval-Augmen
 
 ## Demo
 
-https://github.com/Yohanes213/Precision-RAG/assets/99422479/6e4f9432-3300-44de-9ef8-0ca6e44b0be4
+
+https://github.com/Yohanes213/Precision-RAG/assets/99422479/7cd5d8d9-ef60-478e-afc9-11e9325b32aa
+
 
 
 ## Contributing
