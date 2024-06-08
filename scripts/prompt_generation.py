@@ -6,8 +6,8 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Pinecone
 from langchain.schema import HumanMessage
 from pinecone import Pinecone as PineconeClient, ServerlessSpec
-from rag import vectorize, retrieve, insert_vector
-from data_generation import FileHandler, AIAssistant
+from scripts.rag import vectorize, retrieve, insert_vector
+from scripts.data_generation import FileHandler, AIAssistant
 
 
 # Set up logging
@@ -72,7 +72,7 @@ def generation_prompt(text, query, prompt_path, n=5):
     results = vectorstore.similarity_search(query, k=2)
 
     # Retrieve the prompt
-    prompt = retrieve(results, query, prompt_path, n)
+    prompt = retrieve(results, prompt_path, query, n)
 
     # Get completion from OpenAI
     response = assistant.get_chat_completion(messages=[HumanMessage(content=prompt)], logprobs=True, top_logprobs=1)
@@ -85,5 +85,5 @@ if __name__ == "__main__":
     text = FileHandler.read_file(file_path)
     query = 'Who are the tutors?'
 
-    response = generation_prompt(text, prompt_path, query, 1)
+    response = generation_prompt(text, query, prompt_path, 1)
     print(response.content)
