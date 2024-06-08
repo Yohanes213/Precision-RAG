@@ -7,17 +7,17 @@
 Precision RAG is a project focused on building enterprise-grade Retrieval-Augmented Generation (RAG) systems with a strong emphasis on prompt tuning. This repository provides tools and scripts to facilitate data generation, prompt tuning, evaluation, and deployment of RAG systems.
 
 ## Table of Contents
-['Project Structure'](#project-structure)
+- [Project Structure](#project-structure)
 
-['Setup Instruction'](#setup-instruction)
+- [Setup Instruction](#setup-instruction)
 
-['Running the Application'](#running-the-application)
+- [Running the Application](#running-the-application)
 
-['Demo'](#demo)
+- [Demo](#demo)
 
-['Contributing'](#contributing)
+- [Contributing](#contributing)
 
-['License'](#license)
+- [License](#license)
 
 ## Project Structure
 - **.github/workflows:** Stores the workflow script (precision-rag-cl.yml) for automated CI builds using GitHub Actions.
