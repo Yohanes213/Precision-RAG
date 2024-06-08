@@ -1,4 +1,4 @@
-from data_generation import AIAssistant, FileHandler
+from scripts.data_generation import AIAssistant, FileHandler
 import numpy as np
 import os
 from dotenv import load_dotenv
@@ -6,7 +6,7 @@ from pathlib import Path
 from langchain.vectorstores import Pinecone
 from langchain.embeddings.openai import OpenAIEmbeddings
 from pinecone import Pinecone as PineconeClient
-from rag import retrieve
+from scripts.rag import retrieve
 import json
 
 load_dotenv()
