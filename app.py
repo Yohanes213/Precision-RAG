@@ -12,10 +12,9 @@ from langchain.vectorstores import Pinecone
 from langchain.schema import HumanMessage
 from pinecone import Pinecone as PineconeClient
 from scripts.prompt_ranking import ranking_prompts
-from scripts.evaluation import evaluation
+from scripts.data_evaluation_pipeline import evaluation
 
 pinecone_api_key = os.getenv('PINECONE_API_KEY')
-
 openapi_key = os.getenv('OPENAI_API_KEY')
 
 # Initialize AIAssistant
@@ -29,6 +28,15 @@ index_name = 'prompt-engineering'
 index = pc.Index(index_name)
 
 def read_file(uploaded_file):
+    """
+    Read the uploaded file and extract text content.
+    
+    Args:
+        uploaded_file (FileUploader): The file uploaded by the user.
+    
+    Returns:
+        str: The text content extracted from the file.
+    """
     if uploaded_file.type == "text/plain":
         content = StringIO(uploaded_file.getvalue().decode("utf-8")).read()
     elif uploaded_file.type == "application/pdf":
@@ -42,6 +50,9 @@ def read_file(uploaded_file):
     return content
 
 def main():
+    """
+    Main function to run the Streamlit application.
+    """
     st.title("Automatic Prompt Generator")
 
     # Initialize session state variables
@@ -69,6 +80,7 @@ def main():
             st.sidebar.success('File successfully read!')
 
             if st.sidebar.button("Generate Prompt"):
+                # Generate test data
                 prompt_data = FileHandler.read_file("prompts/data-generation-prompt.txt")
                 data_response = generate_test_data(prompt_data, context, num_test_output)
                 test_data = data_response.content
@@ -78,20 +90,19 @@ def main():
                 with open(json_filename, 'w') as f:
                     json.dump(json_object, f, indent=4)
 
+                # Evaluate the generated test data
                 evaluation()
                 
                 st.sidebar.success(f"JSON data has been saved as {json_filename}")
                 
                 st.session_state.json_object = json_object  # Save the JSON object in the session state
                 
+                # Generate prompts based on user query and context
                 prompt_path = 'prompts/prompt-generation.txt'
-                #generation_prompt(text, query, prompt_path, n=5)
                 prompt_response = generation_prompt(context, user_query, prompt_path, n=num_prompt_output)
-
-                #st.write(prompt_response.content.split('\n'))
-
                 prompt_response_path = 'prompts/response.txt'
 
+                # Rank the generated prompts
                 ranked_prompts = ranking_prompts(list(prompt_response.content.split('\n')), prompt_response_path)
 
                 st.session_state.prompts = ranked_prompts  # Save the prompts in the session state
