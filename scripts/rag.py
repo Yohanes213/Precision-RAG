@@ -15,13 +15,13 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
+# Load API keys from environment variables
 pinecone_api_key = os.getenv('PINECONE_API_KEY')
 openapi_key = os.getenv('OPENAI_API_KEY')
 
-
+# Initialize embedding model and Pinecone client
 embed_model = OpenAIEmbeddings(model='text-embedding-ada-002', openai_api_key=openapi_key)
 pc = PineconeClient(pinecone_api_key)
-
 
 def vectorize(index, file_path, embed_model, batch_size=64):
     """
@@ -34,7 +34,7 @@ def vectorize(index, file_path, embed_model, batch_size=64):
         batch_size (int): The number of chunks to process in each batch.
     """
     try:
-        #text = file_reader(file_path)
+        # Split text into chunks
         chunks = FileHandler.split_text_into_chunks(file_path, chunk_size=120)
 
         for i in range(0, len(chunks), batch_size):
@@ -49,64 +49,68 @@ def vectorize(index, file_path, embed_model, batch_size=64):
     except Exception as e:
         logger.error(f"Error vectorizing the data: {e}")
 
-def retrieve(results, prompt_path, query= None, num_prompts=None):
+def retrieve(results, prompt_path, query=None, num_prompts=None):
     """
     Retrieve the best prompts based on the context of the results.
     
     Args:
         results: The search results from the vector store.
+        prompt_path (str): Path to the prompt file.
         query (str): The query to generate prompts for.
         num_prompts (int): The number of prompts to generate.
     
     Returns:
         str: The augmented prompt.
     """
-    context = "\n".join([x.page_content for x in results])
+    try:
+        context = "\n".join([x.page_content for x in results])
+        prompt_text = FileHandler.read_file(prompt_path)
 
-    #prompt_path = 'prompts/prompt-generation.txt'
-    
-    prompt_text = FileHandler.read_file(prompt_path)
-
-    if num_prompts and query:
-        augmented_prompt = prompt_text.replace("{context}", context).replace("{num_prompt_output}", str(num_prompts)).replace("{query}", query) 
-    
-    #elif num_prompts and query==None:
-     #   augmented_prompt = prompt_text.replace("{context}", context).replace("{num_prompt_output}", str(num_prompts))
-    
-    #elif query and num_prompts==None:
-     #   augmented_prompt = prompt_text.replace("{context}", context).replace("{num_prompt_output}", str(num_prompts)).replace("{query}", query) 
-    
-    else:
-        augmented_prompt = prompt_text.replace("{context}", context).replace("{query}", query) 
+        if num_prompts and query:
+            augmented_prompt = prompt_text.replace("{context}", context).replace("{num_prompt_output}", str(num_prompts)).replace("{query}", query) 
+        else:
+            augmented_prompt = prompt_text.replace("{context}", context).replace("{query}", query) 
         
-    return augmented_prompt
-
-   # File path to the document
-    #file_path = 'prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf'
+        return augmented_prompt
+    except Exception as e:
+        logger.error(f"Error retrieving prompt: {e}")
+        raise
 
 def update_json_file(previous_file):
-    with open('file.json', 'w') as f:
-        json.dump({"previous_file":previous_file} , f , indent=4)
+    """
+    Update the JSON file with the previous processed file.
+    
+    Args:
+        previous_file (str): Previous processed file.
+    """
+    try:
+        with open('file.json', 'w') as f:
+            json.dump({"previous_file": previous_file}, f, indent=4)
+    except Exception as e:
+        logger.error(f"Error updating JSON file: {e}")
+        raise
 
 def insert_vector(text):
+    """
+    Insert vectorized text into the Pinecone index.
     
-    with open('file.json', 'r') as f:
-        data = json.load(f)
+    Args:
+        text (str): Text to be vectorized and inserted into the index.
+    """
+    try:
+        with open('file.json', 'r') as f:
+            data = json.load(f)
 
-    if data['previous_file'] == "" or data['previous_file'] != text[:20]:
-        update_json_file(text[:20])
-    
-        index_name = 'prompt-engineering'
-        batch_size = 64
+        if data['previous_file'] == "" or data['previous_file'] != text[:20]:
+            update_json_file(text[:20])
+        
+            index_name = 'prompt-engineering'
+            batch_size = 64
 
-        # Create Pinecone index
-        #create_pinecone_index(pc, index_name)
-        index = pc.Index(index_name)
-
-        # Vectorize the document
-        vectorize(index, text, embed_model, batch_size)
-
-# if __name__ == "__main__":
-#     insert(file_path='prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf')
+            index = pc.Index(index_name)
+            vectorize(index, text, embed_model, batch_size)
+    except Exception as e:
+        logger.error(f"Error inserting vector: {e}")
+        raise
 
 
