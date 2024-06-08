@@ -4,32 +4,31 @@ Precision RAG is a project focused on building enterprise-grade Retrieval-Augmen
 
 ## Project Structure
 .
-├── .github/
-│   └── workflows/
+├── .github/             # GitHub-related configurations
+│   └── workflows/       # GitHub Actions workflows
 │       └── precision.py
-├── logs/
+├── logs/               # Log files
 │   └── logs.log
-├── prompts/
+├── prompts/           # Prompt files for different stages
 │   ├── context.txt
 │   ├── data-generation.txt
 │   ├── prompt-generation.txt
 │   ├── response.txt
 │   └── validation.txt
-├── scripts/
+├── scripts/           # Python scripts for various tasks
 │   ├── data_evaluation_pipeline.py
 │   ├── data_generation.py
 │   ├── generate_test_data.py
 │   ├── prompt_generation.py
 │   ├── prompt_ranking.py
 │   └── rag.py
-├── test_dataset/
+├── test_dataset/       # Test dataset
 │   └── test_data.json
-├── .gitignore
-├── readme.md
-├── app.py
-├── file.json
-└── requirements.txt
-
+├── .gitignore         # Git ignore file
+├── README.md          # Project documentation
+├── app.py             # Streamlit app for UI
+├── file.json          # Configuration file
+└── requirements.txt   # Required Python packages
 ## Project Structure
 
 ### `scripts/`
