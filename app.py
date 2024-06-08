@@ -3,9 +3,30 @@ import json
 from PyPDF2 import PdfReader
 from io import StringIO
 
-from scripts.data_generation import get_completion, file_reader
+from scripts.data_generation import AIAssistant, FileHandler
 from scripts.generate_test_data import generate_test_data
 from scripts.prompt_generation import generation_prompt
+import os
+from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.vectorstores import Pinecone
+from langchain.schema import HumanMessage
+from pinecone import Pinecone as PineconeClient
+from scripts.prompt_ranking import ranking_prompts
+from scripts.evaluation import evaluation
+
+pinecone_api_key = os.getenv('PINECONE_API_KEY')
+
+openapi_key = os.getenv('OPENAI_API_KEY')
+
+# Initialize AIAssistant
+assistant = AIAssistant(openai_api_key=openapi_key)
+
+# Initialize embedding model and Pinecone client
+embed_model = OpenAIEmbeddings(model='text-embedding-ada-002', openai_api_key=openapi_key)
+pc = PineconeClient(pinecone_api_key)
+
+index_name = 'prompt-engineering'
+index = pc.Index(index_name)
 
 def read_file(uploaded_file):
     if uploaded_file.type == "text/plain":
@@ -21,7 +42,7 @@ def read_file(uploaded_file):
     return content
 
 def main():
-    st.title("AI-Powered Dataset & Prompt Generator")
+    st.title("Automatic Prompt Generator")
 
     # Initialize session state variables
     if 'json_object' not in st.session_state:
@@ -48,21 +69,32 @@ def main():
             st.sidebar.success('File successfully read!')
 
             if st.sidebar.button("Generate Prompt"):
-                prompt = file_reader("prompts/data-generation-prompt.txt")
-                data_response = generate_test_data(prompt, context, num_test_output)
+                prompt_data = FileHandler.read_file("prompts/data-generation-prompt.txt")
+                data_response = generate_test_data(prompt_data, context, num_test_output)
                 test_data = data_response.content
                 json_object = json.loads(test_data)
                 
                 json_filename = 'test_dataset/test-data.json'
                 with open(json_filename, 'w') as f:
                     json.dump(json_object, f, indent=4)
+
+                evaluation()
                 
                 st.sidebar.success(f"JSON data has been saved as {json_filename}")
                 
                 st.session_state.json_object = json_object  # Save the JSON object in the session state
                 
-                prompt_response = generation_prompt(context, user_query, n=num_prompt_output)
-                st.session_state.prompts = prompt_response.content  # Save the prompts in the session state
+                prompt_path = 'prompts/prompt-generation.txt'
+                #generation_prompt(text, query, prompt_path, n=5)
+                prompt_response = generation_prompt(context, user_query, prompt_path, n=num_prompt_output)
+
+                #st.write(prompt_response.content.split('\n'))
+
+                prompt_response_path = 'prompts/response.txt'
+
+                ranked_prompts = ranking_prompts(list(prompt_response.content.split('\n')), prompt_response_path)
+
+                st.session_state.prompts = ranked_prompts  # Save the prompts in the session state
 
     if st.sidebar.button("View the json file"):
         st.session_state.view_json = True  # Set a flag to view JSON content
