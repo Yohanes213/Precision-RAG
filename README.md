@@ -74,11 +74,13 @@ This project is designed to generate test data using OpenAI's GPT-3.5-turbo mode
 
 The generated test data will be displayed on the web interface and saved to `test_dataset/test-data.json`.
 
-## Logging
+## Demo
 
-Logs are saved in the `logs` directory for debugging and monitoring purposes.
+https://github.com/Yohanes213/Precision-RAG/assets/99422479/6e4f9432-3300-44de-9ef8-0ca6e44b0be4
+
 
 ## Contributing
+
 
 Feel free to open issues or submit pull requests if you have any improvements or suggestions.
 
