@@ -13222,3 +13222,249 @@
 2024-06-08 10:31:47,853 - scripts.data_generation - INFO - Chat completion successful.
 2024-06-08 10:31:47,853 - scripts.data_generation - INFO - Chat completion successful.
 2024-06-08 10:31:47,853 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:21,949 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-08 18:20:27,329 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:27,329 - scripts.generate_test_data - INFO - Test data generation successful.
+2024-06-08 18:20:38,676 - scripts.data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-08 18:20:39,566 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:39,566 - scripts.data_evaluation_pipeline - INFO - Model confidence for message 'Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+Generation, and Prompt Testing and Ranking. 1. Automatic Prompt Generation Service: ● This service streamlines the process of creating eﬀective prompts, enabling businesses to eﬃciently utilize LLMs for generating high-quality, relevant content. It signiﬁcantly reduces the time and expertise required in crafting prompts manually. 2. Automatic Evaluation Data Generation Service: ● PromptlyTech’s service automates the generation of diverse test cases, ensuring comprehensive coverage and identifying potential issues. This enhances the reliability and performance of LLM applications, saving signiﬁcant time in the QA(Quality Assurance) process. 3. Prompt Testing and Ranking Service: ● PromptlyTech’s service evaluates and ranks diﬀerent prompts based on eﬀectiveness, helping Users to get the desired outcome from LLM. It ensures that chatbots and virtual assistants provide accurate, contextually
+Prompt Optimization Strategies: Understand various strategies for reﬁning and optimizing prompts to achieve better alignment with speciﬁc goals and desired outcomes. ● Industry Best Practices: Familiarize with the best practices in prompt engineering within diﬀerent industries, learning about real-world applications and challenges. Team Tutors: - Yabebal - Emtinan - Rehmet Badges Each week, one user will be awarded one of the badges below for the best performance in the category below. In addition to being the badge holder for that badge, each badge winner will get +20 points to the overall score. Visualization - quality of visualizations, understandability, skimmability, choice of visualization Quality of code - reliability, maintainability, eﬃciency, commenting - in future this will be CICD /CML Innovative approach
+
+User question is
+
+Question: 
+What is the primary goal of PromptlyTech's solutions?' is 'true'.
+2024-06-08 18:20:40,760 - scripts.data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-08 18:20:41,221 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:41,222 - scripts.data_evaluation_pipeline - INFO - Model confidence for message 'Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+Generation, and Prompt Testing and Ranking. 1. Automatic Prompt Generation Service: ● This service streamlines the process of creating eﬀective prompts, enabling businesses to eﬃciently utilize LLMs for generating high-quality, relevant content. It signiﬁcantly reduces the time and expertise required in crafting prompts manually. 2. Automatic Evaluation Data Generation Service: ● PromptlyTech’s service automates the generation of diverse test cases, ensuring comprehensive coverage and identifying potential issues. This enhances the reliability and performance of LLM applications, saving signiﬁcant time in the QA(Quality Assurance) process. 3. Prompt Testing and Ranking Service: ● PromptlyTech’s service evaluates and ranks diﬀerent prompts based on eﬀectiveness, helping Users to get the desired outcome from LLM. It ensures that chatbots and virtual assistants provide accurate, contextually
+Prompt Optimization Strategies: Understand various strategies for reﬁning and optimizing prompts to achieve better alignment with speciﬁc goals and desired outcomes. ● Industry Best Practices: Familiarize with the best practices in prompt engineering within diﬀerent industries, learning about real-world applications and challenges. Team Tutors: - Yabebal - Emtinan - Rehmet Badges Each week, one user will be awarded one of the badges below for the best performance in the category below. In addition to being the badge holder for that badge, each badge winner will get +20 points to the overall score. Visualization - quality of visualizations, understandability, skimmability, choice of visualization Quality of code - reliability, maintainability, eﬃciency, commenting - in future this will be CICD /CML Innovative approach
+
+User question is
+
+Question: 
+What are the key services offered by PromptlyTech?' is 'true'.
+2024-06-08 18:20:42,118 - scripts.data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-08 18:20:42,759 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:42,759 - scripts.data_evaluation_pipeline - INFO - Model confidence for message 'Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+relevant responses, thereby improving user engagement and satisfaction. Background Context In the evolving ﬁeld of artiﬁcial intelligence, Language Models (LLMs) like GPT-3.5 and GPT-4 have become crucial for various applications. Their eﬀectiveness, however, heavily depends on the quality of the prompts they receive, leading to the emergence of "prompt engineering" as a key skill. Prompt engineering is the craft of designing queries or statements to guide LLMs to produce desired outcomes. The challenge lies in the sensitivity of these models to prompt nuances, where slight variations can yield vastly diﬀerent results. This poses a signiﬁcant hurdle for users, especially in business contexts where accuracy and relevance are paramount. The need for simpliﬁed, eﬃcient prompt engineering is clear. Automating and optimizing
+this process can save time, enhance LLM productivity, and make advanced AI capabilities more accessible to a broader range of users. The tasks of Automatic Prompt Generation, Evaluation Data Generation, and Prompt Testing and Ranking are aimed at addressing these challenges, streamlining the prompt engineering process for more eﬀective use of LLMs. Learning Outcomes Skills Development ● Prompt Engineering Proﬁciency: Gain expertise in crafting eﬀective prompts that guide LLMs to desired outputs, understanding nuances and variations in language that impact model responses. ● Critical Analysis: Develop the ability to critically analyze and evaluate the eﬀectiveness of diﬀerent prompts based on their performance in varied scenarios. ● Technical Aptitude with LLMs: Enhance technical skills in using advanced language models like GPT-4
+
+User question is
+
+Question: 
+What is the significance of prompt engineering in the context of Language Models?' is 'true'.
+2024-06-08 18:20:43,636 - scripts.data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-08 18:20:44,355 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:44,356 - scripts.data_evaluation_pipeline - INFO - Model confidence for message 'Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+the user, create a set of test cases that serve as evaluation benchmarks for the prompt candidates. ● These test cases simulate various scenarios, enabling users to observe how each prompt performs in diﬀerent contexts. ● The generated test cases serve as a starting point, sparking creativity and inspiring additional test cases for comprehensive evaluation. Task 4: Prompt Testing and Ranking Goals Comprehensive Evaluation: Provide a robust system that uses various methodologies for a thorough assessment of prompts. Customizable and User-Centric: Allow users to choose or customize their preferred evaluation methods. Dynamic and Adaptive: Ensure the system remains ﬂexible and adaptive, capable of incorporating new ranking methodologies as they emerge. Primary Methods● Monte Carlo Matchmaking: This method is used to
+Generation, and Prompt Testing and Ranking. 1. Automatic Prompt Generation Service: ● This service streamlines the process of creating eﬀective prompts, enabling businesses to eﬃciently utilize LLMs for generating high-quality, relevant content. It signiﬁcantly reduces the time and expertise required in crafting prompts manually. 2. Automatic Evaluation Data Generation Service: ● PromptlyTech’s service automates the generation of diverse test cases, ensuring comprehensive coverage and identifying potential issues. This enhances the reliability and performance of LLM applications, saving signiﬁcant time in the QA(Quality Assurance) process. 3. Prompt Testing and Ranking Service: ● PromptlyTech’s service evaluates and ranks diﬀerent prompts based on eﬀectiveness, helping Users to get the desired outcome from LLM. It ensures that chatbots and virtual assistants provide accurate, contextually
+
+User question is
+
+Question: 
+What are the main methods used for prompt testing and ranking?' is 'true'.
+2024-06-08 18:20:45,118 - scripts.data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-08 18:20:45,957 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:45,958 - scripts.data_evaluation_pipeline - INFO - Model confidence for message 'Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+● UI Implementation: Develop and integrate the user interface with the backend prompt engineering system.Task 6: System Integration and Testing ● Integrate all components of the system and conduct comprehensive testing. ● Integrate the prompt generation, Evaluation Data Generation, evaluation, and user interface components. ● Test the entire system for functionality, usability, and performance. Reﬁne based on feedback and test results.Tutorials Schedule In the following, the colour purple indicates morning sessions, and blue indicates afternoon sessions. Monday: Understanding Prompt engineering Here the trainees will understand the week’s challenge. ● Introduction to Week Challenge (Yabebal) ● Introduction and challenges to prompt engineering (Emtinan) Key Performance Indicators: ● Understanding week’s challenge ● Understanding the prompt engineering ● Ability to reuse previous knowledge
+on performance criteria like creativity, relevance, etc., for more qualitative assessments. ● Adaptive Ranking Algorithms : Algorithms that learn and adjust over time, considering historical performance data and evolving user preferences or requirements. ● Semantic Similarity Matching : Using NLP techniques to match prompts based on semantic content, ideal for understanding nuanced diﬀerences in prompt eﬀectiveness. You should adopt an innovative approach to prompt evaluation by utilizing Monte Carlo matchmaking and ELO rating systems, or any alternative method to match and rank. Task 5: User Interface Development Develop a user-friendly interface for interacting with the prompt engineering system. ● UI Design: Plan and design a user interface that allows users to easily input data, receive prompts, and view evaluation results.
+
+User question is
+
+Question: 
+What is the purpose of the User Interface Development task in the prompt engineering system?' is 'true'.
+2024-06-08 18:20:45,962 - scripts.data_evaluation_pipeline - INFO - Data evaluation and filtering successful.
+2024-06-08 18:20:47,934 - scripts.data_generation - INFO - File reading successful for prompts/prompt-generation.txt
+2024-06-08 18:20:49,696 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:49,698 - scripts.prompt_generation - INFO - Prompt generation successful.
+2024-06-08 18:20:49,700 - scripts.prompt_ranking - INFO - Loaded validation dataset from test_dataset/test-data.json
+2024-06-08 18:20:51,646 - scripts.data_generation - INFO - File reading successful for prompts/response.txt
+2024-06-08 18:20:52,677 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:52,678 - scripts.prompt_ranking - INFO - Generated response for prompt: What are the names of the team tutors?
+2024-06-08 18:20:53,558 - scripts.data_generation - INFO - File reading successful for prompts/response.txt
+2024-06-08 18:20:54,277 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:54,277 - scripts.prompt_ranking - INFO - Generated response for prompt: Which individuals are responsible for tutoring in the group?
+2024-06-08 18:20:55,153 - scripts.data_generation - INFO - File reading successful for prompts/response.txt
+2024-06-08 18:20:55,885 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:55,887 - scripts.prompt_ranking - INFO - Generated response for prompt: Who are the tutors providing guidance and support in the team?
+2024-06-08 18:20:56,755 - scripts.data_generation - INFO - File reading successful for prompts/response.txt
+2024-06-08 18:20:57,354 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:57,355 - scripts.prompt_ranking - INFO - Generated response for prompt: Can you provide the names of the tutors assisting the group?
+2024-06-08 18:20:58,271 - scripts.data_generation - INFO - File reading successful for prompts/response.txt
+2024-06-08 18:20:59,030 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:20:59,031 - scripts.prompt_ranking - INFO - Generated response for prompt: Who are the individuals offering tutoring services within the team?
+2024-06-08 18:27:53,284 - scripts.data_generation - INFO - File reading successful for prompts/data-generation-prompt.txt
+2024-06-08 18:27:58,039 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:27:58,039 - scripts.generate_test_data - INFO - Test data generation successful.
+2024-06-08 18:28:02,425 - scripts.data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-08 18:28:03,315 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:28:03,328 - scripts.data_evaluation_pipeline - INFO - Model confidence for message 'Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+Generation, and Prompt Testing and Ranking. 1. Automatic Prompt Generation Service: ● This service streamlines the process of creating eﬀective prompts, enabling businesses to eﬃciently utilize LLMs for generating high-quality, relevant content. It signiﬁcantly reduces the time and expertise required in crafting prompts manually. 2. Automatic Evaluation Data Generation Service: ● PromptlyTech’s service automates the generation of diverse test cases, ensuring comprehensive coverage and identifying potential issues. This enhances the reliability and performance of LLM applications, saving signiﬁcant time in the QA(Quality Assurance) process. 3. Prompt Testing and Ranking Service: ● PromptlyTech’s service evaluates and ranks diﬀerent prompts based on eﬀectiveness, helping Users to get the desired outcome from LLM. It ensures that chatbots and virtual assistants provide accurate, contextually
+Prompt Optimization Strategies: Understand various strategies for reﬁning and optimizing prompts to achieve better alignment with speciﬁc goals and desired outcomes. ● Industry Best Practices: Familiarize with the best practices in prompt engineering within diﬀerent industries, learning about real-world applications and challenges. Team Tutors: - Yabebal - Emtinan - Rehmet Badges Each week, one user will be awarded one of the badges below for the best performance in the category below. In addition to being the badge holder for that badge, each badge winner will get +20 points to the overall score. Visualization - quality of visualizations, understandability, skimmability, choice of visualization Quality of code - reliability, maintainability, eﬃciency, commenting - in future this will be CICD /CML Innovative approach
+
+User question is
+
+Question: 
+What is the primary goal of PromptlyTech?' is 'true'.
+2024-06-08 18:28:04,157 - scripts.data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-08 18:28:04,757 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:28:04,757 - scripts.data_evaluation_pipeline - INFO - Model confidence for message 'Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+Generation, and Prompt Testing and Ranking. 1. Automatic Prompt Generation Service: ● This service streamlines the process of creating eﬀective prompts, enabling businesses to eﬃciently utilize LLMs for generating high-quality, relevant content. It signiﬁcantly reduces the time and expertise required in crafting prompts manually. 2. Automatic Evaluation Data Generation Service: ● PromptlyTech’s service automates the generation of diverse test cases, ensuring comprehensive coverage and identifying potential issues. This enhances the reliability and performance of LLM applications, saving signiﬁcant time in the QA(Quality Assurance) process. 3. Prompt Testing and Ranking Service: ● PromptlyTech’s service evaluates and ranks diﬀerent prompts based on eﬀectiveness, helping Users to get the desired outcome from LLM. It ensures that chatbots and virtual assistants provide accurate, contextually
+Prompt Optimization Strategies: Understand various strategies for reﬁning and optimizing prompts to achieve better alignment with speciﬁc goals and desired outcomes. ● Industry Best Practices: Familiarize with the best practices in prompt engineering within diﬀerent industries, learning about real-world applications and challenges. Team Tutors: - Yabebal - Emtinan - Rehmet Badges Each week, one user will be awarded one of the badges below for the best performance in the category below. In addition to being the badge holder for that badge, each badge winner will get +20 points to the overall score. Visualization - quality of visualizations, understandability, skimmability, choice of visualization Quality of code - reliability, maintainability, eﬃciency, commenting - in future this will be CICD /CML Innovative approach
+
+User question is
+
+Question: 
+What are the key services offered by PromptlyTech?' is 'true'.
+2024-06-08 18:28:05,644 - scripts.data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-08 18:28:06,281 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:28:06,281 - scripts.data_evaluation_pipeline - INFO - Model confidence for message 'Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+relevant responses, thereby improving user engagement and satisfaction. Background Context In the evolving ﬁeld of artiﬁcial intelligence, Language Models (LLMs) like GPT-3.5 and GPT-4 have become crucial for various applications. Their eﬀectiveness, however, heavily depends on the quality of the prompts they receive, leading to the emergence of "prompt engineering" as a key skill. Prompt engineering is the craft of designing queries or statements to guide LLMs to produce desired outcomes. The challenge lies in the sensitivity of these models to prompt nuances, where slight variations can yield vastly diﬀerent results. This poses a signiﬁcant hurdle for users, especially in business contexts where accuracy and relevance are paramount. The need for simpliﬁed, eﬃcient prompt engineering is clear. Automating and optimizing
+this process can save time, enhance LLM productivity, and make advanced AI capabilities more accessible to a broader range of users. The tasks of Automatic Prompt Generation, Evaluation Data Generation, and Prompt Testing and Ranking are aimed at addressing these challenges, streamlining the prompt engineering process for more eﬀective use of LLMs. Learning Outcomes Skills Development ● Prompt Engineering Proﬁciency: Gain expertise in crafting eﬀective prompts that guide LLMs to desired outputs, understanding nuances and variations in language that impact model responses. ● Critical Analysis: Develop the ability to critically analyze and evaluate the eﬀectiveness of diﬀerent prompts based on their performance in varied scenarios. ● Technical Aptitude with LLMs: Enhance technical skills in using advanced language models like GPT-4
+
+User question is
+
+Question: 
+What is the significance of prompt engineering in the context of LLMs?' is 'true'.
+2024-06-08 18:28:07,055 - scripts.data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-08 18:28:07,516 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:28:07,517 - scripts.data_evaluation_pipeline - INFO - Model confidence for message 'Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+Generation, and Prompt Testing and Ranking. 1. Automatic Prompt Generation Service: ● This service streamlines the process of creating eﬀective prompts, enabling businesses to eﬃciently utilize LLMs for generating high-quality, relevant content. It signiﬁcantly reduces the time and expertise required in crafting prompts manually. 2. Automatic Evaluation Data Generation Service: ● PromptlyTech’s service automates the generation of diverse test cases, ensuring comprehensive coverage and identifying potential issues. This enhances the reliability and performance of LLM applications, saving signiﬁcant time in the QA(Quality Assurance) process. 3. Prompt Testing and Ranking Service: ● PromptlyTech’s service evaluates and ranks diﬀerent prompts based on eﬀectiveness, helping Users to get the desired outcome from LLM. It ensures that chatbots and virtual assistants provide accurate, contextually
+Prompt Optimization Strategies: Understand various strategies for reﬁning and optimizing prompts to achieve better alignment with speciﬁc goals and desired outcomes. ● Industry Best Practices: Familiarize with the best practices in prompt engineering within diﬀerent industries, learning about real-world applications and challenges. Team Tutors: - Yabebal - Emtinan - Rehmet Badges Each week, one user will be awarded one of the badges below for the best performance in the category below. In addition to being the badge holder for that badge, each badge winner will get +20 points to the overall score. Visualization - quality of visualizations, understandability, skimmability, choice of visualization Quality of code - reliability, maintainability, eﬃciency, commenting - in future this will be CICD /CML Innovative approach
+
+User question is
+
+Question: 
+What are the primary methods used for prompt evaluation at PromptlyTech?' is 'true'.
+2024-06-08 18:28:08,443 - scripts.data_generation - INFO - File reading successful for prompts/validation.txt
+2024-06-08 18:28:09,006 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:28:09,007 - scripts.data_evaluation_pipeline - INFO - Model confidence for message 'Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+relevant responses, thereby improving user engagement and satisfaction. Background Context In the evolving ﬁeld of artiﬁcial intelligence, Language Models (LLMs) like GPT-3.5 and GPT-4 have become crucial for various applications. Their eﬀectiveness, however, heavily depends on the quality of the prompts they receive, leading to the emergence of "prompt engineering" as a key skill. Prompt engineering is the craft of designing queries or statements to guide LLMs to produce desired outcomes. The challenge lies in the sensitivity of these models to prompt nuances, where slight variations can yield vastly diﬀerent results. This poses a signiﬁcant hurdle for users, especially in business contexts where accuracy and relevance are paramount. The need for simpliﬁed, eﬃcient prompt engineering is clear. Automating and optimizing
+● UI Implementation: Develop and integrate the user interface with the backend prompt engineering system.Task 6: System Integration and Testing ● Integrate all components of the system and conduct comprehensive testing. ● Integrate the prompt generation, Evaluation Data Generation, evaluation, and user interface components. ● Test the entire system for functionality, usability, and performance. Reﬁne based on feedback and test results.Tutorials Schedule In the following, the colour purple indicates morning sessions, and blue indicates afternoon sessions. Monday: Understanding Prompt engineering Here the trainees will understand the week’s challenge. ● Introduction to Week Challenge (Yabebal) ● Introduction and challenges to prompt engineering (Emtinan) Key Performance Indicators: ● Understanding week’s challenge ● Understanding the prompt engineering ● Ability to reuse previous knowledge
+
+User question is
+
+Question: 
+What is the importance of a user-friendly interface in prompt engineering?' is 'true'.
+2024-06-08 18:28:09,010 - scripts.data_evaluation_pipeline - INFO - Data evaluation and filtering successful.
+2024-06-08 18:28:12,939 - scripts.data_generation - INFO - File reading successful for prompts/prompt-generation.txt
+2024-06-08 18:28:14,785 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:28:14,786 - scripts.prompt_generation - INFO - Prompt generation successful.
+2024-06-08 18:28:14,786 - scripts.prompt_ranking - INFO - Loaded validation dataset from test_dataset/test-data.json
+2024-06-08 18:28:16,630 - scripts.data_generation - INFO - File reading successful for prompts/response.txt
+2024-06-08 18:28:17,531 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:28:17,531 - scripts.prompt_ranking - INFO - Generated response for prompt: What are the names of the team tutors?
+2024-06-08 18:28:18,359 - scripts.data_generation - INFO - File reading successful for prompts/response.txt
+2024-06-08 18:28:18,860 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:28:18,861 - scripts.prompt_ranking - INFO - Generated response for prompt: Which individuals are responsible for tutoring in the group?
+2024-06-08 18:28:19,702 - scripts.data_generation - INFO - File reading successful for prompts/response.txt
+2024-06-08 18:28:20,330 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:28:20,331 - scripts.prompt_ranking - INFO - Generated response for prompt: Who are the tutors available for assistance in the team?
+2024-06-08 18:28:21,174 - scripts.data_generation - INFO - File reading successful for prompts/response.txt
+2024-06-08 18:28:21,744 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:28:21,745 - scripts.prompt_ranking - INFO - Generated response for prompt: Can you provide the names of the tutors in the group?
+2024-06-08 18:28:22,682 - scripts.data_generation - INFO - File reading successful for prompts/response.txt
+2024-06-08 18:28:23,642 - scripts.data_generation - INFO - Chat completion successful.
+2024-06-08 18:28:23,642 - scripts.prompt_ranking - INFO - Generated response for prompt: Who are the individuals designated as tutors in the team?
