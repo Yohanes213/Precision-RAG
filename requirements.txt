@@ -9,4 +9,5 @@ langchain_pinecone
 python-dotenv
 PyPDF2
 streamlit
+scikit-learn==1.3.2 
 
