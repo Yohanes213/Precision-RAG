@@ -25,21 +25,21 @@ Precision RAG is a project focused on building enterprise-grade Retrieval-Augmen
 - **prompts:** Houses various prompt files used for different stages:
   - **context.txt:** Defines prompts for providing context to the model.
   - **data-generation.txt:** Stores prompts for data generation.
-  - **prompt-generation.txt:** Contains prompts used for generating prompts themselves (meta-prompting).
+  - **prompt-generation.txt:** Contains prompts used for generating prompts themselves.
   - **response.txt:** Defines prompts for response generation.
   - **validation.txt:** Stores prompts for validation purposes.
 - **scripts:** Contains Python scripts for various functionalities:
   - **data_evaluation_pipeline.py:** Script for evaluating generated data.
-  - **data_generation.py:** Script for generating training or testing data.
-  - **generate_test_data.py:** Script for generating specific test data (if needed).
-  - **prompt_generation.py:** Script for generating prompts based on meta-prompting techniques.
-  - **prompt_ranking.py:** Script for ranking retrieved passages or documents.
+  - **data_generation.py:** Script for generating validation data.
+  - **generate_test_data.py:** Test Script for validatioon data.
+  - **prompt_generation.py:** Script for generating possible prompts.
+  - **prompt_ranking.py:** Script for ranking prompts.
   - **rag.py:** Core script implementing the RAG system with prompt tuning.
 - **test_dataset:** Contains a test data file (test_data.json) for evaluation purposes.
 - **.gitignore:** Specifies files and directories to be excluded from version control.
 - **readme.md:** The current file you're reading (project documentation).
-- **app.py:** Script for the Streamlit application providing a user interface (if applicable).
-- **file.json:** Additional configuration file (modify as needed).
+- **app.py:** Script for the Streamlit application providing a user interface.
+- **file.json:** Additional configuration file.
 - **requirements.txt:** Lists the required Python libraries for running the project.
 
 
