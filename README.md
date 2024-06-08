@@ -1,16 +1,22 @@
 # Precision Rag
 
-![Python 3.8+](https://img.shields.io/badge/Python-3.7+-blue.svg)
+![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)
+
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 Precision RAG is a project focused on building enterprise-grade Retrieval-Augmented Generation (RAG) systems with a strong emphasis on prompt tuning. This repository provides tools and scripts to facilitate data generation, prompt tuning, evaluation, and deployment of RAG systems.
 
 ## Table of Contents
 ['Project Structure'](#project-structure)
+
 ['Setup Instruction'](#setup-instruction)
+
 ['Running the Application'](#running-the-application)
+
 ['Demo'](#demo)
+
 ['Contributing'](#contributing)
+
 ['License'](#license)
 
 ## Project Structure
