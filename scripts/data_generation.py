@@ -18,13 +18,17 @@ logger.addHandler(file_handler)
 class FileHandler:
     def read_file(path):
         """
-        Read the contents of a file.
-        
+        Read the contents of a file based on its extension.
+
         Args:
             path (str): The path to the file.
-        
+
         Returns:
-            str: The content of the file.
+            str: The content of the file if the file is a .txt or .pdf.
+
+        Raises:
+            ValueError: If the file format is unsupported.
+            Exception: If there is an error reading the file.
         """
         try:
             if path.endswith('.txt'):
@@ -48,13 +52,16 @@ class FileHandler:
     def split_text_into_chunks(text, chunk_size=200):
         """
         Split text into chunks of a specified size.
-        
+
         Args:
             text (str): The text to split.
             chunk_size (int): The size of each chunk.
-        
+
         Returns:
             list: A list of text chunks.
+
+        Raises:
+            Exception: If there is an error chunking the text.
         """
         try:
             words = text.split()
@@ -67,6 +74,12 @@ class FileHandler:
 
 class AIAssistant:
     def __init__(self, openai_api_key):
+        """
+        Initialize the AIAssistant with the given OpenAI API key.
+
+        Args:
+            openai_api_key (str): The OpenAI API key.
+        """
         self.client = ChatOpenAI(
             openai_api_key=openai_api_key,
             model='gpt-3.5-turbo'
@@ -75,19 +88,22 @@ class AIAssistant:
     def get_chat_completion(self, messages, max_tokens=500, temperature=0, stop=None, seed=123, logprobs=None, top_logprobs=None, n=None):
         """
         Get a completion from the OpenAI API.
-        
+
         Args:
             messages: The messages to send to the API.
-            max_tokens (int): Maximum number of tokens to generate.
-            temperature (float): Sampling temperature.
+            max_tokens (int): Maximum number of tokens to generate. Default is 500.
+            temperature (float): Sampling temperature. Default is 0.
             stop: Sequence where the API will stop generating further tokens.
-            seed (int): Seed for random number generator.
+            seed (int): Seed for random number generator. Default is 123.
             logprobs: Include the log probabilities on the most likely tokens.
             top_logprobs: Return the top log probabilities for each token.
             n (int): Number of completions to generate.
-        
+
         Returns:
             dict: The API response.
+
+        Raises:
+            Exception: If there is an error in chat completion.
         """
         try:
             params = {
@@ -110,6 +126,18 @@ class AIAssistant:
             raise
 
     def get_message_classification(self, message):
+        """
+        Classify a message using the OpenAI API.
+
+        Args:
+            message: The message to classify.
+
+        Returns:
+            str: The classification result ('true' or 'false').
+
+        Raises:
+            Exception: If there is an error in message classification.
+        """
         try:
             response = self.client.invoke(message, max_tokens=1, logprobs=True, top_logprobs=1)
             system_msg = str(response.content)
@@ -125,4 +153,3 @@ class AIAssistant:
         except Exception as e:
             logger.error(f"Error in message classification: {e}")
             raise
-
