@@ -1,6 +1,6 @@
 import os
 import logging
-from data_generation import FileHandler
+from scripts.data_generation import FileHandler
 from langchain.embeddings.openai import OpenAIEmbeddings
 from pinecone import Pinecone as PineconeClient
 from langchain.vectorstores import Pinecone
