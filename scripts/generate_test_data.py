@@ -1,4 +1,4 @@
-from data_generation import FileHandler, AIAssistant
+from scripts.data_generation import FileHandler, AIAssistant
 import json
 from langchain.schema import HumanMessage
 import os
