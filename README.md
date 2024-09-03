@@ -78,6 +78,27 @@ Precision RAG is a project focused on building enterprise-grade Retrieval-Augmen
         ```
 
 ## Running the Application
+To run the application using Docker, follow these steps:
+
+1. Build the Docker image:
+    ```sh
+    docker build -t precision-rag
+    ```
+2. Run the Docker container:
+    ```sh
+    docker run -p 8501:8501 precision-rag
+    ```
+3. Open your web browser and go to http://localhost:8501.
+
+4. Configure the settings in the sidebar and click "Generate Prompt".
+
+5. Click on 'View Prompts' to view the prompt Ranking.
+
+6. Click on View the json file to view and download the generated validation dataset.
+
+
+Alternatively, you can run the application without Docker by following these steps:
+
 
 1. Run the Streamlit app:
     ```sh
