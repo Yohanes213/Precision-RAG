@@ -26,7 +26,7 @@ Precision RAG is a project focused on building enterprise-grade Retrieval-Augmen
 - **scripts:** Contains Python scripts for various functionalities:
   - **data_evaluation_pipeline.py:** Script for evaluating generated data.
   - **data_generation.py:** Script for generating validation data.
-  - **generate_test_data.py:** Test Script for validatioon data.
+  - **generate_test_data.py:** Test Script for validation data.
   - **prompt_generation.py:** Script for generating possible prompts.
   - **prompt_ranking.py:** Script for ranking prompts.
   - **rag.py:** Core script implementing the RAG system with prompt tuning.
